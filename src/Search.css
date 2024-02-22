@@ -1,0 +1,63 @@
+#start-form {
+    position: fixed;
+    top: 20vw;
+    left: 30vw;
+    text-align: center;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+
+    z-index: 1;
+    cursor: url('images/cursor.png') 2 2, pointer;
+
+}
+
+#post-form {
+
+    font-family: menlo;
+    text-align: center;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+
+
+}
+
+input {
+    display: block;
+    width: 40vw;
+    height: 5vw;
+    font-size: 4.5vw;
+    text-align: center;
+
+}
+
+label {
+    display: block;
+    font-size: 2vw;
+    cursor: url('images/cursor.png') 2 2, pointer;
+
+}
+
+#results-Search {
+
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    z-index: 1;
+    align-content: space-between;
+    gap: 0.5rem;
+}
+
+#results:hover {
+
+    cursor: url('images/cursor.png') 2 2, pointer;
+
+
+}
+
+#div-Search {
+
+    width: 100%;
+}

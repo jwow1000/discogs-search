@@ -1,10 +1,22 @@
 body {
   margin: 0;
+  height: 100%;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  width: 100vw;
+  background: rgb(210, 210, 210);
+  background: radial-gradient(circle, rgb(230, 230, 230) 0%, rgba(199, 232, 234, 0.636) 45%, rgba(255, 229, 179, 0.7763699229691876) 100%);
+
+}
+
+body:hover {
+
+  cursor: url('images/cursor.png') 2 2, pointer;
+
+
 }
 
 code {
