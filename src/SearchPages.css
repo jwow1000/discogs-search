@@ -1,0 +1,15 @@
+#results-Search {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    z-index: 1;
+    align-content: space-between;
+    gap: 0.5rem;
+}
+
+#results:hover {
+
+    cursor: url('images/cursor.png') 2 2, pointer;
+
+
+}

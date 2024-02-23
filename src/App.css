@@ -5,3 +5,52 @@
     /* Use a system font, if none are available use an available sans-sarif   font */
 
 }
+
+#start-form {
+    position: fixed;
+    top: 20vw;
+    left: 30vw;
+    text-align: center;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+
+    z-index: 1;
+    cursor: url('images/cursor.png') -1 -1, pointer;
+
+}
+
+#post-form {
+
+    font-family: menlo;
+    text-align: center;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+
+
+}
+
+#navItems {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+
+
+}
+
+input {
+    display: block;
+    width: 40vw;
+    height: 5vw;
+    font-size: 4.5vw;
+    text-align: center;
+
+}
+
+label {
+    display: block;
+    font-size: 2vw;
+    cursor: url('images/cursor.png') 2 2, pointer;
+
+}

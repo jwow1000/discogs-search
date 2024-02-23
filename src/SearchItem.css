@@ -22,9 +22,15 @@
 
 #focused {
     position: fixed;
-    top: 10vw;
+    top: 50vw;
     left: 10vw;
     width: 80vw;
+}
+
+#alt-img {
+    
+    background-image: url('images/alt.png');
+    font-size: 5rem;
 }
 
 .links {

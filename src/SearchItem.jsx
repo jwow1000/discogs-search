@@ -52,6 +52,11 @@ function SearchItem({ img, alt, idx, info, discLink,
         window.open(discLink, '_blank');
     }
 
+    function handleReSearch() {
+        resetImgFocus();
+        reSearch();
+
+    }
 
 
     function Links() {
@@ -59,7 +64,7 @@ function SearchItem({ img, alt, idx, info, discLink,
             return (
                 <div>
                     <div className='links' id='dicogs-link' onClick={handleDiscLink}>discogs</div>
-                    <div className='links' id='research-link' onClick={reSearch}>reSearch</div>
+                    <div className='links' id='research-link' onClick={handleReSearch}>reSearch</div>
                     <div className='links' id='youtube-link' onClick={handleVideoLink}>youtube</div>
                 </div>
             )
@@ -67,14 +72,22 @@ function SearchItem({ img, alt, idx, info, discLink,
     }
     return (
         <div id='div-SearchItem'>
-            {/* <Links /> */}
+            {/* if image link exists make image, if not print div with alt text*/}
 
-            <img
+            { img ? <img
                 src={img}
+                
+                
                 alt={alt}
+
                 onClick={handleClick}
                 id={(imgFocus === idx) ? 'focused' : 'normal'}
             />
+            : <div id='alt-img'>
+                {alt}
+            </div>
+            }
+            
             <Links />
 
         </div>
