@@ -1,11 +1,11 @@
 import "./App.css";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { Route, Routes } from "react-router-dom";
 import SearchForm from "./SearchForm.jsx";
 import Navbar from "./Navbar.jsx";
 import Gallery from "./Gallery.jsx";
 import axios from "axios";
-import SearchPages from "./SearchPages.jsx";
+
 
 function App() {
   const base = "https://api.discogs.com";

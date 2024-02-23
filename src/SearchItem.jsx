@@ -1,5 +1,3 @@
-import { Route, Link, Routes } from 'react-router-dom';
-import { useEffect, useState } from "react";
 import axios from "axios";
 import './SearchItem.css';
 
@@ -76,10 +74,7 @@ function SearchItem({ img, alt, idx, info, discLink,
 
             { img ? <img
                 src={img}
-                
-                
                 alt={alt}
-
                 onClick={handleClick}
                 id={(imgFocus === idx) ? 'focused' : 'normal'}
             />

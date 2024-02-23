@@ -1,5 +1,5 @@
-import { Route, Link, Routes } from 'react-router-dom';
-import { useEffect, useState } from "react";
+
+import { useState } from "react";
 import SearchItem from './SearchItem';
 import axios from "axios";
 // import styles
