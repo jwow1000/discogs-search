@@ -12,7 +12,7 @@ function Gallery({ searchResults, fetchSearch, reSearch }) {
         if(page_num) {
             fetchSearch(page_num)
         }
-    }, [page_num])
+    }, [page_num,fetchSearch])
 
   return searchResults.results ? (
     <div id="results-Search">
@@ -44,10 +44,12 @@ function Gallery({ searchResults, fetchSearch, reSearch }) {
                     setImgFocus={() => setImgFocus(index)}
                     resetImgFocus={() => setImgFocus(-1)}
                 />
+            } else {
+                return null
             }
             
-        
-        })}
+            }
+        )}
     </div>
   ) : null;
 }
