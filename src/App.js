@@ -103,7 +103,7 @@ function App() {
       }
 
       <Routes>
-        
+        <Route path='/' element={<Gallery searchResults={searchResults} fetchSearch={fetchSearch} reSearch={reSearch}/>}/>
         {searchResults.pagination && <Route path="/" element={<Gallery searchResults={searchResults} fetchSearch={fetchSearch} reSearch={reSearch}/>} />}
         <Route path="/pages/:page_num" element={<Gallery searchResults={searchResults} fetchSearch={fetchSearch} reSearch={reSearch}/>} />
       </Routes>
