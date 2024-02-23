@@ -3,7 +3,7 @@ import './SearchItem.css';
 
 function SearchItem({ img, alt, idx, info, discLink,
     reSearch, imgFocus, setImgFocus, resetImgFocus }) {
-    const myToken = 'dgoPiRdAagChWVYQqpfTKEYSVAJGpdSpPxuisxkx';
+    
 
 
     // click focuses image, click again puts it back, user can clik on other images, until back
