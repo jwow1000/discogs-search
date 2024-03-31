@@ -1,6 +1,6 @@
 
 import { useState } from "react";
-import SearchItem from './SearchItem';
+import SearchItem from '../Components/SearchItem';
 import axios from "axios";
 // import styles
 import './Search.css'
