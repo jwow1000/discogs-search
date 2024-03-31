@@ -1,4 +1,3 @@
-
 <h1 style="text-align: center;"> -- reSearch Music with Images -- </h1>
 <p style="text-align: center;">A simple program that interacts with the discogs.com database. Search for music without alogrithims(sort of)<p>
 
@@ -12,9 +11,9 @@
     </li>
 </ol>
 
-<img style="width:75%; display: block; margin: 0 auto" src="images/wireframe_reSearch.png">
+<img style="width:75%; display: block; margin: 0 auto" src="./src/images/wireframe_reSearch.png">
 <br>
-<img style="width:75%; display: block; margin: 0 auto" src="images/product.png">
+<img style="width:75%; display: block; margin: 0 auto" src="./src/images/product.png">
 <br><br>
 
 <h2 style="text-align: center;">MVP</h2>
@@ -33,7 +32,3 @@
    
     
 </ol>
-
-
-
-
