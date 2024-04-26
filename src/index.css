@@ -14,7 +14,7 @@ body {
 
 body:hover {
 
-  cursor: url('images/cursor.png') 2 2, pointer;
+  cursor: url('./assets/images/cursor.png') 2 2, pointer;
 
 
 }

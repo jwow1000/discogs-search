@@ -1,0 +1,86 @@
+#root-SearchItem {
+  background-image: url("../../assets/images/pattern.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 10rem;
+  height: 10rem;
+  padding: 1rem 1rem;
+  /* center the conatined image */
+  display: flex;
+  justify-content: center;
+}
+
+#div-SearchItem:hover {
+}
+
+#item-SearchItem {
+  width: 100%;
+  object-fit: scale-down;
+  text-align: center;
+}
+
+#focus-SeachItem {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 8rem 0 0 0;
+  height: 100vw;
+  width: 100vw;
+  text-align: center;
+}
+
+#img-SearchItem {
+  object-fit: contain;
+  max-width: 100%;
+  max-height: 100%;
+}
+#alt-img {
+  background-image: url("../../assets/images/alt.png");
+  font-size: 5rem;
+}
+
+.links-SearchItem {
+  position: fixed;
+  backdrop-filter: invert(70%);
+  top: 50vw;
+  font-size: 5vw;
+  color: rgb(78, 11, 11);
+}
+
+.links:hover {
+  background-color: rgb(100, 50, 200, 0.4);
+}
+
+#dicogsLink-SearchItem {
+  left: 5vw;
+}
+
+#researchLink-SearchItem {
+  left: 50vw;
+  transform: translateX(-50%);
+}
+
+#youtubeLink-SearchItem {
+  right: 5vw;
+}
+
+/* media queries, default is phone */
+/* scale for larger devices and tablets */
+@media (min-width: 600px) and (max-width: 1199px) {
+  #focused {
+    top: 5vw;
+    position: fixed;
+    left: 20vw;
+    width: 60vw;
+  }
+}
+
+/* sclae for full screen monitors/laptops */
+@media (min-width: 1200px) {
+  #focused {
+    top: 3vw;
+    position: fixed;
+    left: 25vw;
+    width: 50vw;
+  }
+}

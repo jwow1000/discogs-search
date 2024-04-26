@@ -1,9 +1,5 @@
 .App {
-
     width: 100vw;
-
-    /* Use a system font, if none are available use an available sans-sarif   font */
-
 }
 
 #start-form {
@@ -16,7 +12,6 @@
     align-items: center;
 
     z-index: 1;
-    cursor: url('images/cursor.png') -1 -1, pointer;
 
 }
 
@@ -36,7 +31,6 @@
     flex-flow: row wrap;
     justify-content: space-around;
 
-
 }
 
 input {
@@ -51,6 +45,6 @@ input {
 label {
     display: block;
     font-size: 2vw;
-    cursor: url('images/cursor.png') 2 2, pointer;
+    cursor: url('./assets/images/cursor.png') 2 2, pointer;
 
 }

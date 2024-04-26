@@ -1,5 +1,5 @@
 import React from 'react'
-import './SearchForm.css';
+import "./SearchForm.css"; 
 
 function SearchForm({handleSubmit, handleChange, searchTerm, randomSearch}) {
   return (

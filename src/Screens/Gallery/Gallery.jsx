@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import SearchItem from "../Components/SearchItem";
+import SearchItem from "../../Components/SearchItem/SearchItem.jsx";
 import './Gallery.css';
 
 function Gallery({ searchResults, fetchSearch, reSearch }) {

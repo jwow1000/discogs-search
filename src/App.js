@@ -1,10 +1,10 @@
-import "./App.css";
 import { useState } from "react";
 import { Route, Routes } from "react-router-dom";
-import SearchForm from "./SearchForm.jsx";
-import Navbar from "./Navbar.jsx";
-import Gallery from "./Gallery.jsx";
+import SearchForm from './Components/SearchForm/SearchForm.jsx';
+import Navbar from "./Components/Navbar/Navbar.jsx";
+import Gallery from "./Screens/Gallery/Gallery.jsx"; 
 import axios from "axios";
+import "./App.css";
 
 
 function App() {
@@ -90,10 +90,11 @@ function App() {
     <div className="App">
       <div id="div-Search">
         <div id={startState ? "start-form" : "post-form"}>
-          <SearchForm handleSubmit={handleSubmit} 
-              handleChange={handleChange} 
-              searchTerm={searchTerm} 
-              randomSearch={randomSearch}
+          <SearchForm 
+            handleSubmit={handleSubmit} 
+            handleChange={handleChange} 
+            searchTerm={searchTerm} 
+            randomSearch={randomSearch}
           />
         </div>
       </div>
